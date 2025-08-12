@@ -1,0 +1,25 @@
+const par = (num)=> {
+    return num/2 
+}
+
+const impar = (num)=> {
+    return 3*num + 1
+}
+
+let numero = 3
+const lista = []
+while(lista[lista.length-1] != 1){
+    if (numero % 2 == 0){
+        numero = par(numero)
+    }
+    else{
+        numero = impar(numero)
+    }
+
+    lista.push(numero)
+}
+
+console.log(lista)
+
+
+
